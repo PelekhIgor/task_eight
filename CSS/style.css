@@ -1,0 +1,50 @@
+
+.massage {
+    max-width: 740px;
+    margin: auto;
+    padding-top: 50px;
+}
+.form{
+    display: flex;
+    margin-bottom: 30px;
+}
+#input{
+    width: 320px;
+    height: 38px;
+    border: 1px solid darkgrey;
+    background-color: transparent;
+    border-radius: 1px;
+    font-size: 20px;
+    color: black;
+    margin-right: 15px;
+
+ }
+#input::placeholder{
+     font-family: 'Roboto';
+     color: #bebebe;
+ }
+
+#list_container{
+    width: 670px;
+    height: 250px;
+    border: 1px solid darkgrey;
+    color: black;
+    border-radius: 1px;
+    font-size: 20px;
+    overflow: auto;
+    list-style-type: none;
+    padding: 10px;
+ }
+.btn{
+    background-color: darkgray;
+    color: white;
+    padding: 14px 50px ;
+    font-size: 14px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;}
+.btn:hover {
+    background-color: #626362;
+}
+
